@@ -7,7 +7,7 @@ const data = [
   {
     id: 2,
     name: '[키친르쎌] 이탈리아 파티 세트 3~4인분',
-    image: 'https://lh3.googleusercontent.com/proxy/Yu7wjvcewtzrPeLdWCSismrk6yas5m4qh8U6GQc-iC34YR_kDUVtDEkNtRo9aGRWTgdp46qnRw8An-B7OVQQ_aP_HCoTenom2RUmBiNouME8U0U-nSU'
+    image: 'https://t1.daumcdn.net/liveboard/dailylife/ad3a67207e844273af5ada5dd17e6fe7.jpg'
   }
 ]
 
