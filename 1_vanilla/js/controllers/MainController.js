@@ -8,7 +8,7 @@ import SearchModel from '../models/SearchModel.js'
 import KeywordModel from '../models/KeywordModel.js'
 import HistoryModel from '../models/HistoryModel.js'
 
-const tag = '[MainController]'
+const tag = '[MainController]' // 디버깅용
 
 export default {
   init() {
