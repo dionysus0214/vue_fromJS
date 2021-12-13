@@ -8,7 +8,8 @@ ResultView.messages = {
   NO_RESULT: '검색 결과가 없습니다'
 }
 
-ResultView.setup = function(el) {
+ResultView.setup = function (el) {
+  // element를 주입받아서 내부 속성으로 가짐
   this.init(el)
 }
 

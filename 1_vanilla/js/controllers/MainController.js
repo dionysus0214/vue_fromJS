@@ -13,7 +13,8 @@ const tag = '[MainController]' // 디버깅용
 export default {
   init() {
     FormView.setup(document.querySelector('form'))
-      .on('@submit', e => this.onSubmit(e.detail.input)) // on 메서드로 FormView에서 emit으로 보낸 값 처리
+      // on 메서드로 FormView에서 emit으로 보낸 값 처리
+      .on('@submit', e => this.onSubmit(e.detail.input))
       .on('@reset', e => this.onResetForm())
     
     TabView.setup(document.querySelector('#tabs'))
