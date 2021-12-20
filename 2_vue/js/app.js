@@ -5,7 +5,7 @@ import HistoryModel from './models/HistoryModel.js'
 new Vue({
   el: '#app',
   data: {
-    query: '',
+    query: '', // 입력 데이터를 받아서 저장
     submitted: false,
     tabs: ['추천 검색어', '최근 검색어'],
     selectedTab: '',
